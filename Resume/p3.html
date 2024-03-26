@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>Product Details</title>
+</head>
+<body>
+    <section class="text-gray-600 body-font relative">
+     <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Buy Now & Try Now</h1>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+            </div>
+              <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="flex flex-wrap -m-2">
+                  <div class="p-2 w-1/2">
+                    <div class="relative">
+                      <label for="number" class="leading-7 text-sm text-gray-600">Contact Number</label>
+                      <input type="number" id="number" name="number" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                  </div>
+                  <div class="p-2 w-1/2">
+                    <div class="relative">
+                      <label for="text" class="leading-7 text-sm text-gray-600">Adress</label>
+                      <input type="text" id="text" name="text" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                  </div>
+                 <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-600">Product</label>
+         <img src="data:image/jpeg;base64,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">
+                </div>
+              </div>
+              <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900"></a>
+                <a class="mr-5 hover:text-gray-900" href="#">Small</a>
+                <a class="mr-5 hover:text-gray-900" href="#">Large</a>
+                <a class="mr-5 hover:text-gray-900" href="#">X large</a>
+              </nav>
+              <div class="p-2 w-full">
+                <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"><a href="order.html">Order Now</a></button>
+              </div>
+              <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                <a class="text-blue-500" href="#">ShoesShop@gmail.com</a>
+                <span class="inline-flex">
+                  <a href="https://www.facebook.com/" class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://www.twiter.com/" class="ml-4 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://www.instagram.com/" class="ml-4 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                  </a>
+                  <a href="https://www.messenger.com/" class="ml-4 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

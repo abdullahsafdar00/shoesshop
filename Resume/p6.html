@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <title>Product Details</title>
+</head>
+<body>
+    <section class="text-gray-600 body-font relative">
+     <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Buy Now & Try Now</h1>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                  <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+            </div>
+              <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="flex flex-wrap -m-2">
+                  <div class="p-2 w-1/2">
+                    <div class="relative">
+                      <label for="number" class="leading-7 text-sm text-gray-600">Contact Number</label>
+                      <input type="number" id="number" name="number" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                  </div>
+                  <div class="p-2 w-1/2">
+                    <div class="relative">
+                      <label for="text" class="leading-7 text-sm text-gray-600">Adress</label>
+                      <input type="text" id="text" name="text" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                  </div>
+                 <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-600">Product</label>
+         <img src="data:image/jpeg;base64,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">
+                </div>
+              </div>
+              <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+                <a class="mr-5 hover:text-gray-900"></a>
+                <a class="mr-5 hover:text-gray-900" href="#">Small</a>
+                <a class="mr-5 hover:text-gray-900" href="#">Large</a>
+                <a class="mr-5 hover:text-gray-900" href="#">X large</a>
+              </nav>
+              <div class="p-2 w-full">
+                <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"><a href="order.html">Order Now</a></button>
+              </div>
+              <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                <a class="text-blue-500" href="#">ShoesShop@gmail.com</a>
+                <span class="inline-flex">
+                  <a href="https://www.facebook.com/" class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://www.twiter.com/" class="ml-4 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a href="https://www.instagram.com/" class="ml-4 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                  </a>
+                  <a href="https://www.messenger.com/" class="ml-4 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
